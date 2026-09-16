@@ -21,6 +21,45 @@
         <noscript
             ><link rel="stylesheet" href="assets/css/noscript.css"
         /></noscript>
+        <style>
+            .about-media {
+                display: flex;
+                align-items: flex-start;
+                gap: 2em;
+                margin-bottom: 2em;
+            }
+            .about-media video {
+                width: 100%;
+                max-width: 300px;
+                height: auto;
+                border-radius: 8px;
+                display: block;
+                flex-shrink: 0;
+            }
+            .about-media .transcript {
+                flex: 1;
+                max-height: 500px;
+                overflow-y: auto;
+                font-size: 0.9em;
+                line-height: 1.6;
+            }
+            .about-media .transcript h4 {
+                margin-top: 0;
+            }
+
+            @media screen and (max-width: 736px) {
+                .about-media {
+                    flex-direction: column;
+                }
+                .about-media video {
+                    max-width: 100%;
+                    margin: 0 auto;
+                }
+                .about-media .transcript {
+                    max-height: none;
+                }
+            }
+        </style>
     </head>
     <body class="is-preload">
         <!-- Wrapper -->
@@ -43,6 +82,133 @@
                 <!-- Post -->
                 <section class="post">
                     <main class="container">
+                        <div class="about-media">
+                            <iframe
+                                width="350"
+                                height="500"
+                                src="https://www.youtube.com/embed/OcdDg9PSltQ?si=NAEpBci4rSwcG73Y"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="
+                                    accelerometer;
+                                    autoplay;
+                                    clipboard-write;
+                                    encrypted-media;
+                                    gyroscope;
+                                    picture-in-picture;
+                                    web-share;
+                                "
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                            ></iframe>
+                            <div class="transcript">
+                                <h4>Transcript</h4>
+                                <p>
+                                    Hey, my name's Reid. Thank you so much for
+                                    signing up for the Bay to Lake Relay Race.
+                                    This is our fifth year doing it. We're going
+                                    from San Francisco to the Portola Redwood
+                                    State Park, south of here. So this year
+                                    there's going to be a lot of trail running.
+                                    There's going to be a lot of segments with
+                                    no cell phone service. And it's our biggest
+                                    year yet. We've got the most signups we've
+                                    ever had.
+                                </p>
+
+                                <p>
+                                    The main difference between Bay to Lake and
+                                    other races is that our event is completely
+                                    self-organized. There's no race officials.
+                                    There's no chip timers. There's no water
+                                    stations. There's no road closures or even
+                                    route markings. So it's on you to be
+                                    prepared for any situation that may arise.
+                                </p>
+
+                                <p>
+                                    The race is broken up into segments, each
+                                    spanning between two to five miles each with
+                                    a start and end. For example, a segment
+                                    might start at Aquatic Park and it might end
+                                    at Ocean Beach. So if you're the runner,
+                                    it's your job to get from the start to
+                                    finish with no support. That means it's up
+                                    to you to keep your phone charged, be
+                                    hydrated, etc. Make sure you're checking
+                                    your GPS frequently while you're running to
+                                    make sure you're still going the right way.
+                                </p>
+
+                                <p>
+                                    The rest of your team is going to get into
+                                    their cars and drive to the finish point,
+                                    Ocean Beach, in this situation. So it's up
+                                    to them to get there before the runner.
+                                    Otherwise, the runner might get there and be
+                                    very confused. They're like, where's my
+                                    team? It's happened before. So make sure
+                                    you're quick to get to the point and also so
+                                    you can prepare the runner for the next
+                                    segment.
+                                </p>
+
+                                <p>
+                                    There's quite a few parts this year that
+                                    won't have good cell service. So once we
+                                    release the segments, please download them
+                                    onto your phone. Save the GPS maps offline
+                                    so that you'll have a much better chance of
+                                    getting between each one safely without
+                                    getting too lost along the way.
+                                </p>
+
+                                <p>
+                                    Bay to Lake lasts all day and you're going
+                                    to be outside for a lot of it. So be
+                                    prepared for that. Bring clothing that is
+                                    good for both hot and cold weather.
+                                    Sunscreen, hats, sunglasses are important.
+                                    Make sure you have a way of charging your
+                                    phone. So if you have a battery pack or a
+                                    car charger, definitely bring that. First
+                                    aid kit and anything else you can think of
+                                    that you might need during the day.
+                                </p>
+
+                                <p>
+                                    Once your last runner crosses the finish
+                                    line, congrats, you're all done with the Bay
+                                    to Lake relay race. If you need to go back,
+                                    back home, back to the city, you can just
+                                    drive straight back. The event's usually
+                                    over around 4 or 5 p.m. And it usually takes
+                                    about one or two hours to get back from the
+                                    finish line.
+                                </p>
+
+                                <p>
+                                    However, we highly encourage and we invite
+                                    you to stay after. We have the campsite
+                                    booked all night. So you can stay as late as
+                                    you want and you can also spend the night.
+                                    If you are going to spend the night, it is
+                                    camping. So make sure you pack what you
+                                    need. Warm clothes, tent, sleeping bag,
+                                    sleeping pad. So make sure you have all that
+                                    ready in advance so that you have a
+                                    comfortable night.
+                                </p>
+
+                                <p>
+                                    And again, thank you so much for signing up
+                                    to Bay to Lake. It's going to be, it's
+                                    probably going to be one of our best years
+                                    ever. So let's have a good time. Thank you.
+                                </p>
+                            </div>
+                        </div>
+
                         <h2 id="about">About</h2>
                         <h3>What is this?</h3>
                         <p>
