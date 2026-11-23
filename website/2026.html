@@ -27,6 +27,15 @@
                 margin: 0;
                 border-bottom-color: #444;
             }
+            .table-wrap {
+                width: 100%;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                margin-bottom: 1em;
+            }
+            .results-table {
+                min-width: 640px;
+            }
         </style>
     </head>
     <body class="is-preload">
@@ -76,7 +85,7 @@
                         </ul>
                     </header>
                     <h2>Finishers</h2>
-
+<div class="table-wrap">
                     <table class="results-table">
                         <thead>
                             <tr>
@@ -177,7 +186,9 @@
                             </tr>
                         </tbody>
                     </table>
+</div>
                     <h2>Individual Awards</h2>
+                    <div class="table-wrap">
                     <table class="results-table">
                         <thead>
                             <tr>
@@ -227,6 +238,7 @@
                             </tr>
                         </tbody>
                     </table>
+                    </div>
                     <div class="gallery">
                         <img
                             src="https://baytolake.sfo3.cdn.digitaloceanspaces.com/2026/62D9B4EA-BF75-4A55-A713-7DC05A2238A4.jpg"
